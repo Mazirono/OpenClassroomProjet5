@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    background-color:  #AB47BC ;
+    ul{
+        
+        
+        margin: 0;
+        height: 80px;
+        display : flex;
+        justify-content: space-between;
+        
+        li{
+            text-align: center;
+            margin:auto 0 auto 0 ;
+            &:first-child{
+                margin-left: 6%;
+            }
+            &:last-child{
+                margin-right: 7%;
+            }
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+#footer_fixé{
+    position : absolute;
+    bottom: 0;
+    width : 100%;
+}

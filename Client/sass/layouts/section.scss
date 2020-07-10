@@ -1,0 +1,40 @@
+#btn_supprimer_panier{
+    margin-top: 10px;
+}
+img{
+    width : 200px;
+}
+section{
+    text-align: center;
+    .liste_ours{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 50%;
+        margin: 27px auto 8px auto;
+       
+        .name_ours,.price_ours{
+            width: 50%;
+        }
+       
+        .picture_ours{
+            width : 100%;
+            margin-top: 10px;
+        }
+        .color_ours,.li_supprimer_ours_panier,.description_ours,.li_confirmation_ours,#li_ajout_panier{
+            width: 100%;
+        }
+       
+    
+    }
+}
+
+form{
+    button{
+        margin-bottom : 10px;
+    }
+    input{
+        border: 1px black solid;
+    }
+}

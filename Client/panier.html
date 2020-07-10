@@ -1,0 +1,86 @@
+<!DOCTYPE html >
+<html lang="fr">
+    <head>
+        <title>Panier</title>
+
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="author" content="Mazir Ouahioune">
+        <meta name="description" content="." />
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="icon" href="public/img/favicon.ico" />
+       
+       <link rel='stylesheet' type='text/css' media='screen' href='public/css/style.css'>
+       
+        
+       <script  src="js/main.js"></script>
+       <script src="js/clic.js"></script>
+       <script src="js/affichage_html.js"></script>
+       <script src="js/panier.js"></script>
+       <script  src="js/formulaire.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+        
+       
+        
+    </head>
+    <body>
+        <header>
+            <nav class="nav" >
+                <ul class="menu">
+                    
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="panier.html"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="panier_header">
+                <h1>Panier</h1>
+            </div>
+            <div id="Conteneur_liste_ours">
+            
+            </div>
+            <div id="prix_panier">
+
+            </div>
+            <h2>Remplissez le formulaire avec vos données pour recevoir votre commande</h2>
+            <form>
+                <div class="form_element">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text"  id="prenom">
+                </div>
+
+                <div class="form_element">
+                    <label for="nom">Votre nom de famille?</label>
+                    <input type="text"  id="nom">
+                </div>
+
+                <div class="form_element" >
+                    <label for="adresse">Votre adresse?</label>
+                    <input type="text"  id="adresse">
+                </div>
+
+                <div class="form_element">
+                    <label for="ville">Votre ville?</label>
+                    <input type="text"  id="ville">
+                </div>
+
+                <div class="form_element">
+                    <label for="email">Votre adresse mail ?</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="form_element">
+                <button type="button" onclick="send_formular();">Envoyer le formulaire</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="http://www.cgv-pro.fr/mentions-legales-explications"> Mentions légales</a></li>
+                <li> <a href="mailto:orineco@gmail.com">Contact</a> </li>
+            </ul>
+        </footer>
+    </body>
+</html>

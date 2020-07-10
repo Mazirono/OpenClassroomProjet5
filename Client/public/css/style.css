@@ -1,0 +1,243 @@
+@charset "UTF-8";
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  background-color: #1E88E5;
+  margin: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  text-align: center;
+  margin: auto 0 auto 0;
+}
+nav ul li:first-child {
+  margin-left: 6%;
+}
+nav ul li:last-child {
+  margin-right: 7%;
+}
+nav ul li a {
+  font-size: 20px;
+}
+
+#btn_supprimer_panier {
+  margin-top: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+section {
+  text-align: center;
+}
+section .liste_ours {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 27px auto 8px auto;
+}
+section .liste_ours .name_ours, section .liste_ours .price_ours {
+  width: 50%;
+}
+section .liste_ours .picture_ours {
+  width: 100%;
+  margin-top: 10px;
+}
+section .liste_ours .color_ours, section .liste_ours .li_supprimer_ours_panier, section .liste_ours .description_ours, section .liste_ours .li_confirmation_ours, section .liste_ours #li_ajout_panier {
+  width: 100%;
+}
+
+form button {
+  margin-bottom: 10px;
+}
+form input {
+  border: 1px black solid;
+}
+
+footer {
+  width: 100%;
+  background-color: #AB47BC;
+}
+footer ul {
+  margin: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li {
+  text-align: center;
+  margin: auto 0 auto 0;
+}
+footer ul li:first-child {
+  margin-left: 6%;
+}
+footer ul li:last-child {
+  margin-right: 7%;
+}
+footer ul li a {
+  font-size: 20px;
+}
+
+#footer_fixé {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form .form_element {
+  margin-top: 14px;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+  li {
+    font-size: 17px;
+  }
+
+  select {
+    height: 30px;
+    width: 100px;
+    margin-left: 12px;
+    border: 1px black solid;
+  }
+
+  body button {
+    margin-top: 5px;
+    width: 280px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  section .liste_ours {
+    width: 80%;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+  footer ul li:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer ul li:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  nav ul li:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body button {
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  header nav ul {
+    height: 110px;
+  }
+  header nav ul li a {
+    font-size: 30px;
+  }
+
+  select {
+    height: 50px;
+    width: 140px;
+    margin-left: 12px;
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  section {
+    font-size: 30px;
+  }
+  section #btn_supprimer_panier {
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+  }
+  section h1 {
+    font-size: 34px;
+  }
+  section h2 {
+    font-size: 32px;
+  }
+  section .liste_ours {
+    width: 90%;
+  }
+  section .liste_ours li {
+    font-size: 30px;
+  }
+  section .liste_ours li button {
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+  }
+  section form label {
+    font-size: 30px;
+  }
+  section form input {
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    border: 1px black solid;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+  footer ul {
+    height: 90px;
+  }
+  footer ul li a {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
